@@ -23,8 +23,8 @@ This project implements a basic shell command line interpreter in C supporting U
 
 Requires GCC or compatible compiler.
 
-<br><h1>gcc -o shell shell.c -Wall<h1><br>
-<h1>./shell<br>
+<br>gcc -o shell shell.c -Wall<br>
+./shell<br>
 
 ## Usage
 
