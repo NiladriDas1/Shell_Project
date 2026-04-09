@@ -22,14 +22,16 @@ This project implements a basic shell command line interpreter in C supporting U
 ## Build & Run
 
 Requires GCC or compatible compiler.
-
-<br>gcc -o shell shell.c -Wall<br>
+```bash
+gcc -o shell shell.c -Wall
 ./shell<br>
+```
 
 ## Usage
-
-Type shell commands at the prompt, e.g., `ls /home`, `cat file.txt`, `exit` to quit.
-
+Type shell commands at the prompt, e.g.,
+```bash
+ `ls /home`, `cat file.txt`, `exit` to quit.
+```
 ## Notes
 
 - `locate` currently performs a recursive full filesystem scan and is slow.
