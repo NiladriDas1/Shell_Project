@@ -24,7 +24,7 @@ This project implements a basic shell command line interpreter in C supporting U
 Requires GCC or compatible compiler.
 ```bash
 gcc -o shell shell.c -Wall
-./shell<br>
+./shell
 ```
 
 ## Usage
